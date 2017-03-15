@@ -1,0 +1,81 @@
+﻿.mydatagrid {
+    min-width: 90%;
+  
+    }
+
+.header {
+    background-color: #cbcbcb;
+    font-family: Arial;
+    color: black;
+    height: 42px;
+    text-align:center;
+    font-size: 11px;
+}
+
+.rows {
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+    color: #000;
+    min-height: 25px;
+    text-align: left;
+  
+  
+}
+    .rows:hover {
+        background-color: rgba(193, 215, 188, 0.57);
+        font-family: Arial;
+        color: black;
+        text-align: left;
+    }
+
+.selectedrow {
+    background-color: #8ad877;
+    font-family: Arial;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+.mydatagrid a /** FOR THE PAGING ICONS  **/ {
+    background-color: Transparent;
+    padding: 5px 5px 5px 5px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mydatagrid a:hover /** FOR THE PAGING ICONS  HOVER STYLES**/ {
+    background-color: #94b592;
+    color: #000000;
+    
+}
+
+.mydatagrid span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/ {
+    background-color: #c9c9c9;
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}
+
+.pager {
+    background-color: #646464;
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+
+.mydatagrid td {
+    padding: 5px;
+}
+
+.mydatagrid th {
+    padding: 5px;
+}
+
+.mydatagrid a {
+    font-size:11px;
+    border: 1px solid;
+    border-color: #8e8e8e;
+    border-radius: 4px;
+}
